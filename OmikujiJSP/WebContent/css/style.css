@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+html, body{
+
+	height: 100%;
+
+}
+header {
+	height: 30px;
+	background-color: #F00;
+}
+
+
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+table th{
+  border-bottom: solid 2px #fb5144;
+  padding: 10px 0;
+}
+
+table td{
+  border-bottom: solid 2px #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
+center{
+	  text-align: center;
+}
+
+
+
+}
