@@ -9,8 +9,8 @@ import java.sql.SQLException;
 import java.util.Random;
 
 /**
-	 * SQLで乱数を取得
-	 */
+ * SQLで乱数を取得
+ */
 public class LineCheckDao {
 	public static int Gyo(Date birth, Date today) throws SQLException, IOException {
 
