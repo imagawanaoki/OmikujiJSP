@@ -33,8 +33,6 @@ public class ResultDao {
 		String gakumon = rs.getString("gakumon");
 		String akinai = rs.getString("akinai");
 		String negaigoto = rs.getString("negaigoto");
-		String unsei_name = rs.getString("unsei_name");
-
 		int unsei_id = rs.getInt("unsei_id");
 
 		switch (unsei_id) {
@@ -66,7 +64,7 @@ public class ResultDao {
 		default:
 			break;
 		}
-		omikuji.setUnsei(unsei_name);
+		omikuji.setUnsei();
 		omikuji.setNegaigoto(negaigoto);
 		omikuji.setAkinai(akinai);
 		omikuji.setGakumon(gakumon);
